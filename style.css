@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    font-family: arial, sans-serif;
+    line-height: 1.6
+}
+
+header {
+    padding: 20px;
+    background-color: #333;
+    color: white
+}
+
+h1 {
+    font-family: "press Start 2P", "consolas", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+#about {
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(230, 230, 230, 0.05);
+}
+
+p {
+    color: white; line-height: 1.6;
+}
+
+#p2 {
+    font-family: "garamond", "consolas", sans-serif;
+    font-style: italic;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#features ul li {
+    margin-bottom: 8px;
+    color: #eee;
+}
+figure img {
+    border: 3px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.odd {
+    color: black
+}
+
+form {
+    background: #eee;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
